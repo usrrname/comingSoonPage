@@ -65,7 +65,7 @@
 		======================================*/
 		
 		//Image Background 
-		//$(".image-background").backstretch("images/image-bg.jpg");
+		$(".image-background").backstretch("images/image-bg.jpg");
 		
 		//Parallax Background 
 		if($('body').hasClass('parallax-background')) {
@@ -93,7 +93,7 @@
 		});
 		//Vegas background carousel 
 		$('.image-background').vegas({
-			delay: 8000,
+			delay: 800,
 			timer: false,
 			shuffle: true,
 			firstTransition: 'fade',
