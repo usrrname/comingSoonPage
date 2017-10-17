@@ -93,7 +93,7 @@
 		});
 		//Vegas background carousel 
 		$('.image-background').vegas({
-			delay: 800,
+			delay: 2000,
 			timer: false,
 			shuffle: true,
 			firstTransition: 'fade',
