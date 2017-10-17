@@ -92,7 +92,7 @@
 		parallax: false,
 		});
 		//Vegas background carousel 
-		$('.image-background').backstretch("images/image-bg.png").vegas({
+		$('.image-background').vegas({
 			delay: 8000,
 			timer: false,
 			shuffle: true,

@@ -105,10 +105,15 @@
 <div class="container-form">
 <!-- section page -->
 <div class="section-page" id="signup">
-<form class="subscription-form mailchimp" method="post" id="mc-form">
-<input type="email" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Your Email Here" />
-<button type="submit" id="subscribebtn" class="border-button no-bottom-margin">Sign me up</button>
-</form>
+		<form action="https://formspree.io/importantmen@gmail.com"
+		method="POST" class="subscription-form mailchimp" id="mc-form">
+	  <input type="text" name="_replyto" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Your Email"/>
+	  <input type="hidden" name="_format" value="plain" />
+	  <input type="text" name="_gotcha" style="display:none" />
+	  <input type="hidden" name="_next" value="thanks.html" />
+	  <button id="subscribebtn" class="border-button no-bottom-margin" type="submit" value="Send"> Sign Me Up </button>
+  </form>
+
 <p class="message-error"></p>
 <p class="message-success"></p>
 </div><!-- /section page -->
@@ -120,6 +125,7 @@
 <div class="copyright small">
 <a href="http://templatestock.co" target="_blank">Yes, it's a theme</a> | <a href="http://www.jennifer-chan.com" target="_blank">Jen Chan</a>
 </div>
+<div><p>Made possible by</p> <img src="images/canada-council_logo.png" width="250"></div>
 </footer><!-- /copyright -->
 
 </div><!-- /content slide -->
