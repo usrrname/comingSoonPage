@@ -56,7 +56,14 @@
 
 </head>
 <body class="image-background">
-
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 <!-- Preloader -->
 <div id="preloader">
 <div id="loading-animation">&nbsp;</div>
@@ -114,7 +121,7 @@
 	  <input type="text" name="_replyto" id="email" class="border-radius-22 bottom-margin" name="email" placeholder="Your Email"/>
 	  <input type="hidden" name="_format" value="plain" />
 	  <input type="text" name="_gotcha" style="display:none" />
-	  <input type="hidden" name="_next" value="thanks.html" />
+	  <input type="hidden" name="_next" value="index.html" />
 	  <button id="subscribebtn" class="border-button no-bottom-margin" type="submit" value="Send"> Sign Me Up </button>
   </form>
 
@@ -123,7 +130,7 @@
 </div><!-- /section page -->
 </div><!-- /container form -->
 </div><!-- /Subscribe Form -->
-
+<div class="fb-share-button" data-href="http://www.importantmen.com" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.importantmen.com%2F&amp;src=sdkpreparse">Share</a></div>
 <!-- copyright -->
 <footer class="copy-right animated fadeInUp" data-animation-delay="700">
 <div class="small">Sponsored By<br><img src="images/canada-council_logo.png" width="250"></div>
