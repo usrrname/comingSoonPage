@@ -107,6 +107,7 @@
 				{ src: './images/slide4.jpg' },
 				{ src: './images/slide5.jpg' },
 				{ src: './images/slide6.jpg' }
+				{ src: './images/slide7.jpg' }
 			]
 		});
 		
@@ -114,7 +115,7 @@
 					Clock Countdown
 		======================================*/
 
-		$('#clock-countdown').countdown('2017/10/23 12:00:00').on('update.countdown', function(event) {
+		$('#clock-countdown').countdown('2017/10/26 16:00:00').on('update.countdown', function(event) {
 			var $this = $(this).html(event.strftime(''
 				+ '<div class="counter-container"><div class="counter-box first"><div class="number">%-D</div><span>Day%!d</span></div>'
 				+ '<div class="counter-box"><div class="number">%H</div><span>Hours</span></div>'
