@@ -106,7 +106,7 @@
 				{ src: './images/slide3.jpg' },
 				{ src: './images/slide4.jpg' },
 				{ src: './images/slide5.jpg' },
-				{ src: './images/slide6.jpg' }
+				{ src: './images/slide6.jpg' },
 				{ src: './images/slide7.jpg' }
 			]
 		});
